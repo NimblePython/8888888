@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(243, 220, 106);
+}
+
+#task1 {
+    text-decoration: line-through;
+}
+
+.container {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: center;      
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.btnSignIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    width: 300px;
+    height: 100px;
+    background-color: rgb(81, 81, 255);
+    color: white;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btnSignUp {
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    width: 300px;
+    height: 100px;
+    background-color: rgb(251, 94, 86);
+    color: white;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.form-element {
+    margin: 10px 0px;
+    width: 100%;  
+    background-color: rgb(125, 147, 255);  
+    text-align: center;  
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    flex-direction: column;
+    width: 300px;    
+    background-color: rgb(125, 147, 255);
+    color: white;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 255, 255);  
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    height: 60px;
+    margin: 10px;
+    border-radius: 12px;   
+    background-color: rgb(13, 220, 85);    
+    border: 1px solid rgb(255, 255, 255);     
+}
